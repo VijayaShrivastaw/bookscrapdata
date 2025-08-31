@@ -13,7 +13,12 @@ if conn.is_connected :
     print("connection successfully connected") 
 cursor = conn.cursor()
 
-
+# create table books(
+# id int auto_increment primary key,
+# title varchar(255),
+# price varchar(50),
+# rating varchar(50)
+# );
 
 driver = webdriver.Chrome()
 driver.maximize_window()
